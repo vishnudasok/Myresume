@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 
-import resume1 from "/img/cv1.jpg";
-import resume2 from "/img/cv2.png";
-import resume3 from "/img/cv3.jpg";
-import resume4 from "/img/cv4.jpg";
-import resume5 from "/img/cv5.jpg";
-import resume6 from "/img/cv6.webp";
-import resume7 from "/img/cv7.avif";
-import resume8 from "/img/cv8.avif";
-import resume9 from "/img/cv9.jpg";
-import resume10 from "/img/cv10.avif";
-import resume11 from "/img/cv11.avif";
-import resume12 from "/img/cv12.avif";
+import resume1 from "../src/assets/img/cv1.jpg";
+import resume2 from "../src/assets/img/cv2.png";
+import resume3 from "../src/assets/img/cv3.jpg";
+import resume4 from "../src/assets/img/cv4.jpg";
+import resume5 from "../src/assets/img/cv5.jpg";
+import resume6 from "../src/assets/img/cv6.webp";
+import resume7 from "../src/assets/img/cv7.avif";
+import resume8 from "../src/assets/img/cv8.avif";
+import resume9 from "../src/assets/img/cv9.jpg";
+import resume10 from "../src/assets/img/cv10.avif";
+import resume11 from "../src/assets/img/cv11.avif";
+import resume12 from "../src/assets/img/cv12.avif";
 
 
 const resumeImages = [

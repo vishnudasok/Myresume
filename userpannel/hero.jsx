@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import heroBackground from '/img/cv5.jpg';
+import heroBackground from '../src/assets/img/cv5.jpg';
 import { NavLink } from 'react-router-dom'
 
 function HeroSection() {

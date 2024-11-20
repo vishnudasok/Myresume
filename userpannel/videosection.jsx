@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '/img/billy-huynh-W8KTS-mhFUE-unsplash.jpg';
+import backgroundImage from '../src/assets/img/billy-huynh-W8KTS-mhFUE-unsplash.jpg';
 
 function VideoSection() {
   return (

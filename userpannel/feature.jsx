@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhyChooseUs = () => {
-  const backgroundImage = '/img/bgcv1.webp';
+  const backgroundImage = '../src/assets/img/bgcv1.webp';
 
   return (
     <div className="flex flex-col items-center bg-gray-50 py-12 px-4">

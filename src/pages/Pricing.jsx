@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaCheckCircle, FaStar, FaUserShield, FaAward } from 'react-icons/fa';
-import pricebackground from '/img/pricing3.jpg';
+import pricebackground from '../assets/img/pricing3.jpg';
 
 const PricingSection = () => {
   const [showPopup, setShowPopup] = useState(false);

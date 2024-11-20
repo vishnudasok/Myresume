@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 const MyPage = () => {
   const images = [
-    "/img/cv1.jpg",
-    "/img/cv2.png",
-    "/img/res1.png",
-    "/img/res2.jpg",
-    "/img/res5.jpg",
-    "/img/res6.png",
-    "/img/res7.png",
+    "../src/assets/img/cv1.jpg",
+    "../src/assets/img/cv2.png",
+    "../src/assets/img/res1.png",
+    "../src/assets/img/res2.jpg",
+    "../src/assets/img/res5.jpg",
+    "../src/assets/img/res6.png",
+    "../src/assets/img/res7.png",
   ];
 
   const sliderSettings = {
