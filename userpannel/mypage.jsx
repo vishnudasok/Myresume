@@ -3,15 +3,24 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Import images
+import resume1 from "/img/cv1.jpg";
+import resume2 from "/img/cv2.png";
+import resume3 from "/img/res1.png";
+import resume4 from "/img/res2.jpg";
+import resume5 from "/img/res5.jpg";
+import resume6 from "/img/res6.png";
+import resume7 from "/img/res7.png";
+
 const MyPage = () => {
   const images = [
-    "../src/assets/img/cv1.jpg",
-    "../src/assets/img/cv2.png",
-    "../src/assets/img/res1.png",
-    "../src/assets/img/res2.jpg",
-    "../src/assets/img/res5.jpg",
-    "../src/assets/img/res6.png",
-    "../src/assets/img/res7.png",
+    resume1,
+    resume2,
+    resume3,
+    resume4,
+    resume5,
+    resume6,
+    resume7,
   ];
 
   const sliderSettings = {
@@ -24,7 +33,6 @@ const MyPage = () => {
 
   return (
     <div className="flex flex-col md:flex-row bg-gray-100 h-screen">
-
       <div className="w-full md:w-1/3 h-[40vh] md:h-[85vh] overflow-hidden md:ml-32 mt-4 md:mt-20">
         <Slider {...sliderSettings} className="h-full">
           {images.map((img, index) => (
@@ -41,7 +49,6 @@ const MyPage = () => {
           ))}
         </Slider>
       </div>
-
 
       <div className="w-full md:w-2/3 bg-gray-100 flex flex-col justify-center p-4 md:p-8 h-full max-h-[85vh] overflow-auto mt-6 md:mt-10">
         <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 text-center md:text-left">

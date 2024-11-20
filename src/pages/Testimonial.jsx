@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaThumbsUp, FaStar, FaHandshake, FaClipboardList, FaEdit, FaCheckCircle } from 'react-icons/fa';
-import testimonialImage from '../assets/img/testimonial.jpg';
+import testimonialImage from '/img/testimonial.jpg';
 
 
 const TestimonialsPage = () => {
@@ -64,42 +64,42 @@ const TestimonialsPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/abhishek.jpeg" alt="Case Study 1" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/abhishek.jpeg" alt="Case Study 1" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Abhishek Journey to Management</h3>
               <p className="text-sm">With a customized resume, Abhishek secured a management role in a Fortune 500 company within a month.</p>
 
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/deekshith.jpg" alt="Case Study 1" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/deekshith.jpg" alt="Case Study 1" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Deekshith's Career Change to Tech</h3>
               <p className="text-sm">Deekshith transitioned from education to tech with a resume showcasing his transferable skills.</p>
 
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/hisham.jpeg" alt="Case Study 3" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/hisham.jpeg" alt="Case Study 3" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Hisham Promotion to Senior Analyst</h3>
               <p className="text-sm">With a focused resume, Hisham highlighted his skills to secure a promotion to Senior Analyst.</p>
 
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/akhilesh.jpeg" alt="Case Study 4" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/akhilesh.jpeg" alt="Case Study 4" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Akhilesh Break into Marketing</h3>
               <p className="text-sm">Akhilesh used a strategically crafted resume to transition into a marketing role.</p>
 
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/fayis (2).jpeg" alt="Case Study 5" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/fayis (2).jpeg" alt="Case Study 5" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Fayis International Role</h3>
               <p className="text-sm">Our team helped Fayis showcase his international experience, landing him a role abroad.</p>
 
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
-              <img src="../src/assets/img/jesica.jpg" alt="Case Study 6" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
+              <img src="/img/jesica.jpg" alt="Case Study 6" className="w-32 h-32 object-cover rounded-full mb-3 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Jessica’s Shift to Data Science</h3>
               <p className="text-sm">Jessica transitioned into data science with a resume that emphasized her analytical skills.</p>
 
@@ -135,7 +135,7 @@ const TestimonialsPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="../src/assets/img/human blank.jpg"
+                src="/img/human blank.jpg"
                 alt="Alex Johnson"
                 className="w-36 h-36 object-cover rounded-full mb-4 shadow-lg transition-transform transform hover:scale-105"
               />
@@ -146,7 +146,7 @@ const TestimonialsPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="../src/assets/img/human blank.jpg"
+                src="/img/human blank.jpg"
                 alt="Samantha Lee"
                 className="w-36 h-36 object-cover rounded-full mb-4 shadow-lg transition-transform transform hover:scale-105"
               />
@@ -157,7 +157,7 @@ const TestimonialsPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="../src/assets/img/human blank.jpg"
+                src="/img/human blank.jpg"
                 alt="Michael Brown"
                 className="w-36 h-36 object-cover rounded-full mb-4 shadow-lg transition-transform transform hover:scale-105"
               />
@@ -168,7 +168,7 @@ const TestimonialsPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="../src/assets/img/girl blank.jpg"
+                src="/img/girl blank.jpg"
                 alt="Jessica Williams"
                 className="w-36 h-36 object-cover rounded-full mb-4 shadow-lg transition-transform transform hover:scale-105"
               />
