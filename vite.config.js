@@ -1,11 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/', // Update if deploying to a subpath
   plugins: [react()],
- 
   build: {
-    chunkSizeWarningLimit: 1000}
-})
+    assetsInlineLimit: 0,
+    sourcemap: true, // For debugging
+    chunkSizeWarningLimit: 1000, // Increase size limit for chunks
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'], // Separate vendor chunk
+        },
+      },
+    },
+  },
+});
