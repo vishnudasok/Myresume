@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../userpannel/header'
+import Header from '../src/userpannel/header'
 import { Outlet } from 'react-router-dom';
-import Footer from '../userpannel/footer';
+import Footer from '../src/userpannel/footer';
 import { FaWhatsapp } from 'react-icons/fa';
 
 function App() {
