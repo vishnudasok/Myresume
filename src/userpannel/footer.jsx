@@ -25,7 +25,7 @@ function Footer() {
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-500"><FiFacebook /></a>
               <a href="#" className="text-gray-400 hover:text-blue-500"><FiTwitter /></a>
-              <a href="#" className="text-gray-400 hover:text-blue-500"><FiInstagram /></a>
+              <a href="https://www.instagram.com/myresume.__?igsh=MWVnaHgyb2phcW5zMg==" className="text-gray-400 hover:text-blue-500"><FiInstagram /></a>
               <a href="#" className="text-gray-400 hover:text-blue-500"><FiYoutube /></a>
             </div>
           </div>

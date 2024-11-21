@@ -4,6 +4,7 @@ import React from "react";
 const steps = [
   {
     title: "Step 1 - Upload Details",
+    link:"https://wa.me/917907355421",
     description: "Upload your resume in our form to get started with a free consultation.",
     icon: "📤",
   },
@@ -41,17 +42,35 @@ const Process = () => (
 
 
       <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center">
-        {steps.map((step, index) => (
-          <div
-            key={index}
-            className="p-6 sm:p-4 md:p-6 bg-white rounded-full shadow-lg transition-transform transform hover:scale-105 relative overflow-hidden"
-          >
-            <div className="text-4xl sm:text-3xl md:text-5xl mb-4 text-blue-600">{step.icon}</div>
-            <h3 className="text-lg sm:text-sm md:text-xl font-semibold text-gray-800 mb-2">{step.title}</h3>
-            <p className="text-sm sm:text-xs md:text-xs text-gray-700">{step.description}</p>
-            <div className="absolute inset-0 bg-blue-50 opacity-30 rounded-full" style={{ zIndex: -1 }} />
-          </div>
-        ))}
+      {steps.map((step, index) => (
+  <div
+    key={index}
+    className="p-6 sm:p-4 md:p-6 bg-white rounded-full shadow-lg transition-transform transform hover:scale-105 relative overflow-hidden"
+  >
+    {/* Conditional Wrapper for Link */}
+    {step.link ? (
+      <a
+        href={step.link || "https://wa.me/917907355421"}
+       
+      >
+        <div className="text-4xl sm:text-3xl md:text-5xl mb-4 text-blue-600">{step.icon}</div>
+        <h3 className="text-lg sm:text-sm md:text-xl font-semibold text-gray-800 mb-2">{step.title}</h3>
+        <p className="text-sm sm:text-xs md:text-xs text-gray-700">{step.description}</p>
+      </a>
+    ) : (
+      <>
+        <div className="text-4xl sm:text-3xl md:text-5xl mb-4 text-blue-600">{step.icon}</div>
+        <h3 className="text-lg sm:text-sm md:text-xl font-semibold text-gray-800 mb-2">{step.title}</h3>
+        <p className="text-sm sm:text-xs md:text-xs text-gray-700">{step.description}</p>
+      </>
+    )}
+    <div
+      className="absolute inset-0 bg-blue-50 opacity-30 rounded-full"
+      style={{ zIndex: -1 }}
+    />
+  </div>
+))}
+
       </div>
     </div>
   </section>
